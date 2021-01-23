@@ -11,5 +11,5 @@ $(document).ready(function() {
 });
 $(window).on('load', function(event) {
     $('body').removeClass('preloading');
-    $('.loader').delay(2000).fadeOut('fast');
+    $('.loader').delay(100).fadeOut('fast');
 })

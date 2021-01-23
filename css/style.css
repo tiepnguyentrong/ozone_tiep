@@ -149,6 +149,10 @@ a img.icon-down {
     cursor: pointer;
 }
 
+.banner-item p:hover {
+    color: blue;
+}
+
 .img-banner {
     height: 700px;
     background-image: url("../images/banner.png");
@@ -1251,6 +1255,10 @@ img.click-new {
     font-size: 14px;
 }
 
+.col-lg-4.footer ul li a:hover {
+    color: blue;
+}
+
 .col-lg-4.footer p.footer.one {
     margin-left: 81px;
     font-size: 20px;
@@ -1782,6 +1790,7 @@ iframe {
     p.text-banner-one {
         font-size: 29px;
         width: 462px;
+        margin-top: 13px;
     }
     .flex-banner-up p.text-banner {
         left: 68px;
@@ -1824,6 +1833,9 @@ iframe {
     p.ozone-company {
         padding: 14px;
         text-align: center;
+    }
+    p.text-banner-one {
+        line-height: 49px;
     }
     p.ozone-text {
         font-size: 42px;
@@ -2092,10 +2104,14 @@ iframe {
         width: 333px;
         padding: -8px;
     }
+    p.text-banner-one {
+        line-height: 40px;
+    }
     .flex-banner-up p.text-banner {
         left: 6px;
         width: 390px;
         text-align: justify;
+        margin-top: -60px;
     }
     p.text-banner-one {
         font-size: 22px;
