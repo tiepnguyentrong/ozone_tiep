@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo_banner.png">
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,10 +15,14 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+
     <title>onze</title>
 </head>
 
-<body>
+<body class="preloading">
+    <div class="loader">
+        <span class="fab fa-cloudscale xoay icon"></span>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <div class="wrapper">
         <div class="header">
@@ -116,7 +121,7 @@
             <div class="content-company">
                 <div class="container">
                     <div class="row content-company ">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 img-company">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 img-company ">
                             <a href=""><img src="images/Rectangle319.png" alt=""></a>
                             <div id="overline"></div>
                             <div class="blue">
@@ -149,7 +154,7 @@
             <div class="content-client-wrapper">
                 <div class="container">
                     <div class="row no-gutters">
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 content one">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 content one ">
                             <a href=""><img src="images/Vector.png" alt=""></a>
                             <p>1. TƯ VẤN KHÁCH HÀNG</p>
                             <a href=""><img src="images/1.png" alt="" class="img-content-company"></a>
@@ -395,8 +400,7 @@
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-
+    <script src="js/jquery-3.5.1.min.js"></script>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
